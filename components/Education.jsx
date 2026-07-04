@@ -24,7 +24,7 @@ export default function Education() {
       id: 3,
       degree: 'Secondary School Certificate (SSC)',
       institution: 'Uttara High School',
-      period: '2004 - 2008',
+      period: '2004 - 2006',
       gpa: '5.00',
       details: 'Science Group - Computer Education, Physics, Chemistry'
     }
