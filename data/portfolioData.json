@@ -1,0 +1,99 @@
+{
+  "personal": {
+    "name": "Md Abidur Rahman",
+    "title": "Full Stack Developer",
+    "subtitle": "Engineering Pixels Into Seamless Experiences",
+    "bio": "Hi, I'm Abidur Rahman, a Full Stack Engineer passionate about building modern web applications, immersive user experiences, and scalable software solutions. Currently contributing at Tech Innovators Ltd, where I transform business requirements into premium digital experiences using React, Next.js, TypeScript, and modern full-stack technologies.",
+    "experience": "3+ Years of Crafting Code",
+    "phone": "+880 1234 567890",
+    "email": "abidur@example.com",
+    "location": "Dhaka, Bangladesh",
+    "social": {
+      "github": "https://github.com/abidur",
+      "linkedin": "https://linkedin.com/in/abidur",
+      "twitter": "https://twitter.com/abidur",
+      "whatsapp": "https://wa.me/8801234567890"
+    }
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Tech Innovators Ltd",
+      "position": "Software Engineer",
+      "period": "2023 - Present",
+      "description": "Architecting next-gen enterprise solutions, implementing secure user authentication, and scaling performant application states with microservices architecture.",
+      "technologies": ["React", "Next.js", "Node.js", "TypeScript", "AWS"]
+    },
+    {
+      "id": 2,
+      "company": "Digital Solutions Inc.",
+      "position": "Frontend Developer",
+      "period": "2022 - 2023",
+      "description": "Contributed to modern product engineering, collaborating within enterprise-grade development pipelines to ship clean, highly optimized frontend features.",
+      "technologies": ["React", "JavaScript", "Tailwind CSS", "Redux"]
+    }
+  ],
+  "skills": {
+    "frontend": ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "backend": ["Node.js", "Express.js", "Python", "REST APIs", "MongoDB"],
+    "tools": ["Git & GitHub", "VS Code", "Docker", "AWS", "CI/CD"]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "AI-Powered Analytics Platform",
+      "description": "Enterprise-grade analytics dashboard with real-time data visualization, AI-driven insights, and interactive charts.",
+      "image": "/projects/analytics.jpg",
+      "technologies": ["React", "Node.js", "Python", "D3.js"],
+      "github": "https://github.com/abidur/analytics-platform",
+      "demo": "https://analytics-demo.vercel.app",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "EcoTrack - Sustainability App",
+      "description": "Mobile-first web app for tracking carbon footprint and sustainability goals. Features gamification and community challenges.",
+      "image": "/projects/ecotrack.jpg",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Web3.js"],
+      "github": "https://github.com/abidur/ecotrack",
+      "demo": "https://ecotrack.vercel.app",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "ArtVault - NFT Marketplace",
+      "description": "Curated NFT marketplace with 3D art previews, seamless wallet integration, and social features.",
+      "image": "/projects/artvault.jpg",
+      "technologies": ["React", "Three.js", "Tailwind CSS", "Ethereum"],
+      "github": "https://github.com/abidur/artvault",
+      "demo": "https://artvault.vercel.app",
+      "featured": true
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Full-Stack Web Apps",
+      "description": "Building production-ready applications tailored for high scalability and clean modular architecture.",
+      "icon": "code"
+    },
+    {
+      "id": 2,
+      "title": "Performance Optimization",
+      "description": "Fine-tuning Core Web Vitals, SSR, and caching strategies for instantaneous load speeds.",
+      "icon": "speed"
+    },
+    {
+      "id": 3,
+      "title": "Immersive 3D/XR Web",
+      "description": "Creating breathtaking spatial experiences using Three.js with optimized draw calls.",
+      "icon": "3d"
+    },
+    {
+      "id": 4,
+      "title": "Cloud & DevOps",
+      "description": "Configuring secure cloud environments, SSL certificates, and CI/CD pipelines.",
+      "icon": "cloud"
+    }
+  ]
+}
