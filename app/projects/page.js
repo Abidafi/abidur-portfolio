@@ -39,7 +39,7 @@ export default function ProjectDetail() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="glass-effect rounded-2xl p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">Project Not Found</h2>
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">Project Not Found</h2>
           <Link href="/" className="text-[#6C63FF] hover:underline">← Back to Home</Link>
         </div>
       </div>
@@ -56,31 +56,31 @@ export default function ProjectDetail() {
             <div className="w-full h-64 md:h-96 bg-gradient-to-br from-[#6C63FF]/20 to-[#FF6B6B]/20 rounded-2xl flex items-center justify-center mb-8">
               <span className="text-8xl">🚀</span>
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">{project.title}</h1>
-            <p className="text-gray-400 text-lg mb-6">{project.description}</p>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">{project.title}</h1>
+            <p className="text-gray-600 text-lg mb-6">{project.description}</p>
 
             <div className="mb-8">
-              <h3 className="text-xl font-bold mb-3">🛠️ Technology Stack</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">🛠️ Technology Stack</h3>
               <div className="flex flex-wrap gap-2">
                 {details.techStack.split(', ').map((tech) => (
-                  <span key={tech} className="glass-effect px-3 py-1 rounded-full text-sm">{tech}</span>
+                  <span key={tech} className="glass-effect px-3 py-1 rounded-full text-sm text-gray-700">{tech}</span>
                 ))}
               </div>
             </div>
 
             <div className="flex flex-wrap gap-4 mb-8">
               <a href={project.demo} target="_blank" rel="noopener noreferrer" className="bg-[#6C63FF] hover:bg-[#6C63FF]/80 px-6 py-2 rounded-full text-white font-medium transition-all">🌐 Live Demo</a>
-              <a href={project.github} target="_blank" rel="noopener noreferrer" className="glass-effect glass-hover px-6 py-2 rounded-full text-white font-medium transition-all">📂 GitHub Repository</a>
+              <a href={project.github} target="_blank" rel="noopener noreferrer" className="glass-effect glass-hover px-6 py-2 rounded-full text-gray-700 font-medium transition-all">📂 GitHub Repository</a>
             </div>
 
             <div className="mb-8">
-              <h3 className="text-xl font-bold mb-3">⚠️ Challenges Faced</h3>
-              <p className="text-gray-400 leading-relaxed">{details.challenges}</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">⚠️ Challenges Faced</h3>
+              <p className="text-gray-600 leading-relaxed">{details.challenges}</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-3">🚀 Future Improvements</h3>
-              <p className="text-gray-400 leading-relaxed">{details.improvements}</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">🚀 Future Improvements</h3>
+              <p className="text-gray-600 leading-relaxed">{details.improvements}</p>
             </div>
           </motion.div>
         </div>

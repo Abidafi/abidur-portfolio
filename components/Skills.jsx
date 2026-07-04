@@ -47,10 +47,10 @@ export default function Skills() {
                   return (
                     <div key={skill}>
                       <div className="flex justify-between text-sm mb-1">
-                        <span className="text-gray-300">{skill}</span>
-                        <span className="text-gray-400">{level}%</span>
+                        <span className="text-gray-700">{skill}</span>
+                        <span className="text-gray-500">{level}%</span>
                       </div>
-                      <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
+                      <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
                         <motion.div
                           initial={{ width: 0 }}
                           whileInView={{ width: `${level}%` }}

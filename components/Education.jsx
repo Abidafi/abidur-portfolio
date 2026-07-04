@@ -53,20 +53,20 @@ export default function Education() {
             >
               <div className="flex flex-wrap justify-between items-start gap-4">
                 <div>
-                  <h3 className="text-xl font-bold">{edu.degree}</h3>
+                  <h3 className="text-xl font-bold text-gray-900">{edu.degree}</h3>
                   <p className="text-[#6C63FF] font-medium">{edu.institution}</p>
                 </div>
                 <div className="flex flex-col items-end gap-1">
-                  <span className="glass-effect px-4 py-1 rounded-full text-sm text-gray-300">{edu.period}</span>
+                  <span className="glass-effect px-4 py-1 rounded-full text-sm text-gray-700">{edu.period}</span>
                   {edu.cgpa && (
-                    <span className="text-sm text-gray-400">CGPA: <span className="text-[#6C63FF] font-bold">{edu.cgpa}</span></span>
+                    <span className="text-sm text-gray-600">CGPA: <span className="text-[#6C63FF] font-bold">{edu.cgpa}</span></span>
                   )}
                   {edu.gpa && (
-                    <span className="text-sm text-gray-400">GPA: <span className="text-[#6C63FF] font-bold">{edu.gpa}</span></span>
+                    <span className="text-sm text-gray-600">GPA: <span className="text-[#6C63FF] font-bold">{edu.gpa}</span></span>
                   )}
                 </div>
               </div>
-              <p className="text-gray-400 mt-3">{edu.details}</p>
+              <p className="text-gray-600 mt-3">{edu.details}</p>
             </motion.div>
           ))}
         </div>

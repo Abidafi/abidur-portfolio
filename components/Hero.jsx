@@ -29,7 +29,7 @@ export default function Hero() {
           className="relative w-32 h-32 md:w-40 md:h-40 mx-auto mb-6"
         >
           <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#6C63FF] to-[#FF6B6B] p-[2px]">
-            <div className="w-full h-full rounded-full bg-[#0A0A0F] flex items-center justify-center overflow-hidden text-6xl">
+            <div className="w-full h-full rounded-full flex items-center justify-center overflow-hidden text-6xl bg-[#F5F5FA]">
               👨‍💻
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-6"
+          className="text-xl md:text-2xl lg:text-3xl mb-6 text-gray-700"
         >
           {personal.title}
         </motion.p>
@@ -57,7 +57,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="text-lg text-gray-400 max-w-2xl mx-auto mb-8"
+          className="text-lg max-w-2xl mx-auto mb-8 text-gray-600"
         >
           {personal.subtitle}
         </motion.p>
@@ -74,10 +74,10 @@ export default function Hero() {
           >
             📄 Download Resume
           </button>
-          <a href={personal.social.github} target="_blank" rel="noopener noreferrer" className="glass-effect glass-hover px-8 py-3 rounded-full text-white font-medium transition-all">
+          <a href={personal.social.github} target="_blank" rel="noopener noreferrer" className="glass-effect glass-hover px-8 py-3 rounded-full font-medium transition-all text-gray-700">
             View Work
           </a>
-          <a href={personal.social.whatsapp} target="_blank" rel="noopener noreferrer" className="glass-effect glass-hover px-8 py-3 rounded-full text-white font-medium transition-all">
+          <a href={personal.social.whatsapp} target="_blank" rel="noopener noreferrer" className="glass-effect glass-hover px-8 py-3 rounded-full font-medium transition-all text-gray-700">
             💬 Let's Talk
           </a>
         </motion.div>
@@ -90,15 +90,15 @@ export default function Hero() {
         >
           <div>
             <div className="text-3xl font-bold gradient-text">{personal.experience.split(' ')[0]}</div>
-            <div className="text-sm text-gray-400">Years of Experience</div>
+            <div className="text-sm text-gray-500">Years of Experience</div>
           </div>
           <div>
             <div className="text-3xl font-bold gradient-text">{data.projects.length}+</div>
-            <div className="text-sm text-gray-400">Projects Delivered</div>
+            <div className="text-sm text-gray-500">Projects Delivered</div>
           </div>
           <div>
             <div className="text-3xl font-bold gradient-text">10+</div>
-            <div className="text-sm text-gray-400">Happy Clients</div>
+            <div className="text-sm text-gray-500">Happy Clients</div>
           </div>
         </motion.div>
       </div>

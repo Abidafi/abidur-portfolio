@@ -30,8 +30,8 @@ export default function Services() {
               className="glass-effect rounded-2xl p-6 text-center hover:scale-[1.05] transition-all duration-300"
             >
               <div className="text-4xl mb-4">{icons[service.icon] || '🚀'}</div>
-              <h3 className="text-lg font-bold mb-2">{service.title}</h3>
-              <p className="text-gray-400 text-sm">{service.description}</p>
+              <h3 className="text-lg font-bold mb-2 text-gray-900">{service.title}</h3>
+              <p className="text-gray-600 text-sm">{service.description}</p>
             </motion.div>
           ))}
         </div>

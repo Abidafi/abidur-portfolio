@@ -29,15 +29,15 @@ export default function Experience() {
             >
               <div className="flex flex-wrap justify-between items-start gap-4">
                 <div>
-                  <h3 className="text-xl font-bold">{exp.company}</h3>
+                  <h3 className="text-xl font-bold text-gray-900">{exp.company}</h3>
                   <p className="text-[#6C63FF] font-medium">{exp.position}</p>
                 </div>
-                <span className="glass-effect px-4 py-1 rounded-full text-sm text-gray-300">{exp.period}</span>
+                <span className="glass-effect px-4 py-1 rounded-full text-sm text-gray-700">{exp.period}</span>
               </div>
-              <p className="text-gray-400 mt-3">{exp.description}</p>
+              <p className="text-gray-600 mt-3">{exp.description}</p>
               <div className="flex flex-wrap gap-2 mt-4">
                 {exp.technologies.map((tech) => (
-                  <span key={tech} className="glass-effect px-3 py-1 rounded-full text-xs">{tech}</span>
+                  <span key={tech} className="glass-effect px-3 py-1 rounded-full text-xs text-gray-700">{tech}</span>
                 ))}
               </div>
             </motion.div>
