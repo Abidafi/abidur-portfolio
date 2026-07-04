@@ -6,27 +6,27 @@ export default function Education() {
   const educationData = [
     {
       id: 1,
-      degree: 'Bachelor of Science in Computer Science',
-      institution: 'University of Dhaka',
-      period: '2020 - 2024',
-      cgpa: '3.80',
-      details: 'Major in Software Engineering with focus on Web Technologies and AI.'
+      degree: 'Bachelor of Science in Civil Engineering',
+      institution: 'IUBAT - International University of Business Agriculture & Technology',
+      period: '2010 - 2013',
+      cgpa: '3.96',
+      details: 'Non-linear Matrix Analysis, Numerical Method, Finite Element Method'
     },
     {
       id: 2,
       degree: 'Higher Secondary Certificate (HSC)',
-      institution: 'Dhaka College',
-      period: '2018 - 2020',
+      institution: 'Adamjee Cantonment College',
+      period: '2006 - 2008',
       gpa: '5.00',
-      details: 'Science Group with major in Physics, Chemistry, and Mathematics.'
+      details: 'Science Group - Computer Education, Physics, Chemistry'
     },
     {
       id: 3,
       degree: 'Secondary School Certificate (SSC)',
-      institution: 'Ideal School & College',
-      period: '2016 - 2018',
+      institution: 'Uttara High School',
+      period: '2004 - 2008',
       gpa: '5.00',
-      details: 'Science Group with distinction in Mathematics and Physics.'
+      details: 'Science Group - Computer Education, Physics, Chemistry'
     }
   ]
 

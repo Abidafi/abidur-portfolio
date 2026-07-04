@@ -1,35 +1,34 @@
 {
   "personal": {
     "name": "Md Abidur Rahman",
-    "title": "Full Stack Developer",
+    "title": "AI Powered Full Stack Developer",
     "subtitle": "Engineering Pixels Into Seamless Experiences",
     "bio": "Hi, I'm Abidur Rahman, a Full Stack Engineer passionate about building modern web applications, immersive user experiences, and scalable software solutions. Currently contributing at Tech Innovators Ltd, where I transform business requirements into premium digital experiences using React, Next.js, TypeScript, and modern full-stack technologies.",
     "experience": "3+ Years of Crafting Code",
-    "phone": "+880 1234 567890",
-    "email": "abidur@example.com",
+    "phone": "+880 1929 764345",
+    "email": "abid19918february@gmail.com",
     "location": "Dhaka, Bangladesh",
     "social": {
-      "github": "https://github.com/abidur",
-      "linkedin": "https://linkedin.com/in/abidur",
-      "twitter": "https://twitter.com/abidur",
-      "whatsapp": "https://wa.me/8801234567890"
+      "github": "https://github.com/Abidafi",
+      "linkedin": "https://www.linkedin.com/in/abidur-rahman-676098113/",
+      "whatsapp": "https://wa.me/8801929764345"
     }
   },
   "experience": [
     {
       "id": 1,
-      "company": "Tech Innovators Ltd",
-      "position": "Software Engineer",
-      "period": "2023 - Present",
-      "description": "Architecting next-gen enterprise solutions, implementing secure user authentication, and scaling performant application states with microservices architecture.",
+      "company": "MATZ Enterprise LTD.",
+      "position": "Fire Protection Engineer",
+      "period": "April 2019 - September 2021",
+      "description": "Assist senior engineers in designing, reviewing, and inspecting fire suppression, detection, and life safety systems for industrial facilities, while ensuring compliance with local and international fire codes and contributing to risk assessments and site surveys.",
       "technologies": ["React", "Next.js", "Node.js", "TypeScript", "AWS"]
     },
     {
       "id": 2,
-      "company": "Digital Solutions Inc.",
-      "position": "Frontend Developer",
-      "period": "2022 - 2023",
-      "description": "Contributed to modern product engineering, collaborating within enterprise-grade development pipelines to ship clean, highly optimized frontend features.",
+      "company": "Stichting Bangladesh ACCORD Foundation",
+      "position": "Fire Safety Engineer",
+      "period": "January 2016 - March 2019",
+      "description": "Conducts independent, impartial on-site fire safety audits at industrial facilities to assess compliance with national and international fire codes, identify hazards, and evaluate the effectiveness of fire protection systems, emergency plans, and risk mitigation strategies.",
       "technologies": ["React", "JavaScript", "Tailwind CSS", "Redux"]
     }
   ],
@@ -41,32 +40,32 @@
   "projects": [
     {
       "id": 1,
-      "title": "AI-Powered Analytics Platform",
-      "description": "Enterprise-grade analytics dashboard with real-time data visualization, AI-driven insights, and interactive charts.",
-      "image": "/projects/analytics.jpg",
-      "technologies": ["React", "Node.js", "Python", "D3.js"],
-      "github": "https://github.com/abidur/analytics-platform",
-      "demo": "https://analytics-demo.vercel.app",
+      "title": "HERO.IO - App Discovery Platform",
+      "description": "A modern, responsive web application for discovering and managing mobile applications. Built with React, featuring beautiful UI components and seamless user experience.",
+      "image": "/projects/hero.jpg",
+      "technologies": ["React", "Tailwind CSS", "React Recharts", "D3.js"],
+      "github": "https://github.com/Abidafi/Module-46-Assignment-8",
+      "demo": "https://app-search-website08.netlify.app/",
       "featured": true
     },
     {
       "id": 2,
-      "title": "EcoTrack - Sustainability App",
-      "description": "Mobile-first web app for tracking carbon footprint and sustainability goals. Features gamification and community challenges.",
-      "image": "/projects/ecotrack.jpg",
-      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Web3.js"],
-      "github": "https://github.com/abidur/ecotrack",
-      "demo": "https://ecotrack.vercel.app",
+      "title": "WarmPaws – Pet Care in Winter",
+      "description": "WarmPaws is a cozy winter companion platform designed for pet owners to ensure their furry friends stay warm, safe, and healthy during the cold season. This React-based single-page application (SPA) allows users to explore local pet care services, winter pet clothing, grooming options, and expert tips — all in one friendly, modern interface.",
+      "image": "/projects/paws.jpg",
+      "technologies": ["React JS", "Firebase Authentication", "Tailwind CSS", "Swiper.js"],
+      "github": "https://github.com/Abidafi/Assignment-09",
+      "demo": "https://winter-pet-paradise.netlify.app/",
       "featured": true
     },
     {
       "id": 3,
-      "title": "ArtVault - NFT Marketplace",
-      "description": "Curated NFT marketplace with 3D art previews, seamless wallet integration, and social features.",
-      "image": "/projects/artvault.jpg",
-      "technologies": ["React", "Three.js", "Tailwind CSS", "Ethereum"],
-      "github": "https://github.com/abidur/artvault",
-      "demo": "https://artvault.vercel.app",
+      "title": "InteractionDashboard API - Issue Tracking System",
+      "description": "InteractionDashboard API is a robust RESTful API backend system designed for issue tracking and management. Built with Node.js, Express, TypeScript, and PostgreSQL, it provides a secure and scalable solution for managing software development issues, feature requests, and bug tracking with role-based access control.",
+      "image": "/projects/dashboard.jpg",
+      "technologies": ["Typescript", "JWT based Authentication", "bcrypt", "Node JS"],
+      "github": "https://github.com/Abidafi/B07Assignment-02",
+      "demo": "https://b07assignment-02.onrender.com/",
       "featured": true
     }
   ],

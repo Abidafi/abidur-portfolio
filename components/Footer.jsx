@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="flex justify-end gap-3">
               <a href={personal.social.github} target="_blank" rel="noopener noreferrer" className="glass-effect glass-hover p-2 rounded-full transition-all">🐙</a>
               <a href={personal.social.linkedin} target="_blank" rel="noopener noreferrer" className="glass-effect glass-hover p-2 rounded-full transition-all">🔗</a>
-              <a href={personal.social.twitter} target="_blank" rel="noopener noreferrer" className="glass-effect glass-hover p-2 rounded-full transition-all">🐦</a>
+              
             </div>
           </div>
         </div>

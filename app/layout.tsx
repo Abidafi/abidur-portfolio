@@ -5,7 +5,7 @@ import { ThemeProvider } from '@/context/ThemeContext'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Md Abidur Rahman | Full Stack Developer',
+  title: 'Md Abidur Rahman | AI Powered Full Stack Developer',
   description: 'Portfolio of Md Abidur Rahman - Full Stack Developer specializing in modern web applications, 3D/XR experiences, and scalable solutions.',
 }
 

@@ -81,26 +81,6 @@ export default function Hero() {
             💬 Let's Talk
           </a>
         </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.7 }}
-          className="mt-12 flex flex-wrap gap-8 justify-center"
-        >
-          <div>
-            <div className="text-3xl font-bold gradient-text">{personal.experience.split(' ')[0]}</div>
-            <div className="text-sm text-gray-500">Years of Experience</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold gradient-text">{data.projects.length}+</div>
-            <div className="text-sm text-gray-500">Projects Delivered</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold gradient-text">10+</div>
-            <div className="text-sm text-gray-500">Happy Clients</div>
-          </div>
-        </motion.div>
       </div>
     </section>
   )

@@ -35,11 +35,6 @@ export default function Experience() {
                 <span className="glass-effect px-4 py-1 rounded-full text-sm text-gray-700">{exp.period}</span>
               </div>
               <p className="text-gray-600 mt-3">{exp.description}</p>
-              <div className="flex flex-wrap gap-2 mt-4">
-                {exp.technologies.map((tech) => (
-                  <span key={tech} className="glass-effect px-3 py-1 rounded-full text-xs text-gray-700">{tech}</span>
-                ))}
-              </div>
             </motion.div>
           ))}
         </div>
