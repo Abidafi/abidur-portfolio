@@ -1,4 +1,5 @@
-import { Github, Monitor } from "lucide-react";
+import { Monitor } from "lucide-react";
+import { Github } from "./BrandIcons";
 import FadeIn from "./FadeIn";
 import { projectsData } from "@/data";
 
@@ -11,7 +12,7 @@ export default function Projects() {
           <FadeIn key={idx} delay={idx * 0.1}>
             <div className="border border-slate-200 dark:border-slate-800 rounded-3xl p-8 bg-white dark:bg-slate-900 shadow-sm flex flex-col h-full">
               <div className="flex justify-between items-start mb-4">
-                 {project.type === "OPEN SOURCE" ? <Github size={24} className="text-slate-700 dark:text-slate-300" /> : <Monitor size={24} className="text-slate-700 dark:text-slate-300" />}
+                 {project.type === "OPEN SOURCE" ? <Github width={24} height={24} className="text-slate-700 dark:text-slate-300" /> : <Monitor size={24} className="text-slate-700 dark:text-slate-300" />}
                  {project.stars && <span className="text-xs font-semibold bg-yellow-100 text-yellow-700 px-2 py-1 rounded">⭐ {project.stars} stars</span>}
               </div>
               <h3 className="text-xl font-bold mb-2 text-slate-900 dark:text-white">{project.title}</h3>

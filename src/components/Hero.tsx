@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Github, Linkedin, Mail, Facebook, Twitter, MessageCircle } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
+import { Github, Linkedin, Facebook, Twitter } from "./BrandIcons";
 import FadeIn from "./FadeIn";
 import { heroData } from "@/data";
 

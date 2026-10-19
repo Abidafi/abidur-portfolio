@@ -1,3 +1,31 @@
+// --- Interfaces ---
+export interface Job {
+  title: string;
+  period: string;
+  project?: string; // The '?' makes this optional (since YouKnowWho doesn't have it)
+  points: string[];
+}
+
+export interface Company {
+  company: string;
+  role: string;
+  period: string;
+  location: string;
+  logoText: string;
+  jobs: Job[];
+}
+
+export interface Project {
+  title: string;
+  desc: string;
+  tags: string[];
+  stars: string | null;
+  mau: string;
+  link: string;
+  type: string;
+}
+
+// --- Data ---
 export const heroData = {
   name: "Hi, I'm Abidur Rahman",
   roles: "Senior Software Engineer | Led teams developing AI agents and RAG pipelines at AlpineX AI | Engineered Full Stack blockchain and DeFi applications at Affine DeFi",
@@ -5,7 +33,7 @@ export const heroData = {
   image: "/profile.jpg", 
 };
 
-export const experienceData = [
+export const experienceData: Company[] = [
   {
     company: "Multiplyr",
     role: "Senior Software Engineer",
@@ -54,7 +82,7 @@ export const experienceData = [
   }
 ];
 
-export const projectsData = [
+export const projectsData: Project[] = [
   {
     title: "The Ultimate Code Library",
     desc: "A widely used algorithmic code template library containing optimized implementations of data structures, algorithms, and competitive programming templates.",

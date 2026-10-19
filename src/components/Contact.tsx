@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import FadeIn from "./FadeIn";
 
 export default function Contact() {
