@@ -1,8 +1,8 @@
 // --- Interfaces ---
 export interface Job {
-  title: string;
-  period: string;
-  project?: string; // The '?' makes this optional (since YouKnowWho doesn't have it)
+  title?: string;
+  period?: string;
+  project?: string; 
   points: string[];
 }
 
@@ -11,7 +11,6 @@ export interface Company {
   role: string;
   period: string;
   location: string;
-  logoText: string;
   jobs: Job[];
 }
 
@@ -19,7 +18,6 @@ export interface Project {
   title: string;
   desc: string;
   tags: string[];
-  stars: string | null;
   mau: string;
   link: string;
   type: string;
@@ -28,54 +26,40 @@ export interface Project {
 // --- Data ---
 export const heroData = {
   name: "Hi, I'm Abidur Rahman",
-  roles: "Senior Software Engineer | Led teams developing AI agents and RAG pipelines at AlpineX AI | Engineered Full Stack blockchain and DeFi applications at Affine DeFi",
-  achievements: "2x ICPC World Finalist | Problem Setter at International Math Olympiad | Codeforces Grandmaster",
+  roles: "AI Powered Full-Stack Software Developer",
+  achievements: "Former Fire Safety Engineer in ACCORD Bangladesh | A trained Civil Engineer | Global Outreach as an International Masters Student in Brandenburg University of Technology, Cottbus-Germany",
   image: "/profile.jpg", 
 };
 
 export const experienceData: Company[] = [
   {
-    company: "Multiplyr",
-    role: "Senior Software Engineer",
-    period: "Feb 2022 – Present · 4 yrs 9 mos",
-    location: "Remote (New York, United States)",
-    logoText: "M",
+    company: "M/S MATZ Enterprise Ltd.",
+    role: "Consultant- Fire Protection Engineer",
+    period: "May 2019 – September 2021",
+    location: "Dhaka, Bangladesh",
     jobs: [
       {
-        title: "Senior Software Engineer - Full Stack & AI",
-        period: "Aug 2023 – Present · 3 yrs 3 mos",
-        project: "Project: AlpineX AI",
         points: [
-          "Led team of 4 engineers to architect production-scale RAG pipeline processing millions of data points from social/web sources using vector embeddings, Pinecone vector database and optimized PostgreSQL schemas.",
-          "Built advanced RAG retrieval system with reranking, enabling Web3 AI agents with sub-100ms latency, and shipped 100+ Twitter AI agents using LangChain with OAuth 2.0 authentication and AI reasoning frameworks.",
-          "Engineered AWS cloud infrastructure (ECS, EKS, EC2) with Docker containerization and Datadog monitoring and alerting, achieving 99.9% system reliability with <5min incident response time."
-        ]
-      },
-      {
-        title: "Software Engineer – Full Stack",
-        period: "Aug 2022 – Aug 2023 · 1 yr 1 mo",
-        project: "Project: Affine DeFi",
-        points: [
-          "Architected and scaled FastAPI backend supporting 50K+ users with hundreds of concurrent users and $5M+ TVL.",
-          "Built real-time multi-chain data pipeline processing 2K+ daily blockchain transactions with 90% latency reduction and implemented custom Merkle Tree algorithm in Python, saving thousands in gas costs.",
-          "Developed React/Next.js/TypeScript frontend on Vercel and deployed backend services on AWS EKS using Kubernetes, Argo CD, and CI/CD pipelines, achieving zero-downtime deployments with auto-scaling."
+          "Spearheaded bidding and conceptualization for 12 government tender projects, maintaining liaisons with regulatory authorities to deliver 100% of project milestones on or ahead of schedule.",
+          "Managed cross-functional execution of 3 high-value government-collaborated projects, optimizing resource allocation to reduce project delays by 25%.",
+          "Trained and equipped a 40+ member engineering team on Fire Protection Regulations and Structural Safety, successfully outfitting 5 factories with an 80% fire risk reduction capability through strategic safety product procurement.",
+          "Implemented comprehensive health and safety protocols across 4 operational sites during the COVID-19 pandemic, maintaining 98% staff attendance and achieving zero virus-related work stoppages."
         ]
       }
     ]
   },
   {
-    company: "YouKnowWho Academy",
-    role: "Founder & Technical Lead",
-    period: "Nov 2021 – Present · 5 yrs",
+    company: "Bangladesh ACCORD",
+    role: "Fire Safety Engineer",
+    period: "January 2016 - March 2019",
     location: "Dhaka, Bangladesh",
-    logoText: "Y",
     jobs: [
       {
-        title: "Founder & Technical Lead",
-        period: "Nov 2021 – Present · 5 yrs",
         points: [
-          "Founded and architected EdTech platform serving 3K+ students with 300+ hours of content, generating significant revenue.",
-          "Engineered full-stack web application with React/Next.js/Chakra UI/Firebase and AI-powered learning assistant using Vercel AI SDK, featuring automated grading pipelines and real-time leaderboards."
+          "Conducted around 500 factory inspections in accordance with Accord standards and produced detailed inspection reports.",
+          "Provided engineering and technical support to factories, workers, and brand representatives for executing corrective action plans.",
+          "Coordinated communications and work schedules between brands, factory owners, workers, inspection companies, ED, and CSI.",
+          "Maintained qualitative and quantitative case files for assigned factories and conducted follow-ups to ensure remediation within required timeframes."
         ]
       }
     ]
@@ -84,21 +68,19 @@ export const experienceData: Company[] = [
 
 export const projectsData: Project[] = [
   {
-    title: "The Ultimate Code Library",
-    desc: "A widely used algorithmic code template library containing optimized implementations of data structures, algorithms, and competitive programming templates.",
-    tags: ["C++", "Algorithms", "Data Structures", "Template Library"],
-    stars: "3.7K",
+    title: "GearUp- Sports and Outdoor equipment rental service",
+    desc: "Full-Stack Sports and Outdoor equipment rental service — Customers can browse available gear, place rental orders, make secure payments, and return equipment. Providers manage their gear inventory and fulfill rental orders, while Admins oversee the platform, manage users, and moderate listings.",
+    tags: ["Next JS", "Typescript", "Tanstack Query", "Custom JWT Middleware", "PostgreSQL + Prisma"],
     mau: "15K+",
-    link: "#",
+    link: "https://nextgym-frontend.onrender.com/",
     type: "OPEN SOURCE"
   },
   {
-    title: "YouKnowWho Academy Website",
-    desc: "A comprehensive educational platform serving 3000+ students with 300+ hours of video content on competitive programming, data structures, and algorithms.",
-    tags: ["React", "Next.js", "Chakra UI", "Firebase"],
-    stars: null,
+    title: "DevPulse - Internal Tech Issue & Feature Tracker",
+    desc: "DevPulse is a collaborative platform for software teams to report bugs, suggest features, and coordinate resolutions. It provides a robust API for managing issues with role-based access control, authentication, and comprehensive filtering capabilities.",
+    tags: ["Node.JS", "Typescript", "Express.JS", "PostgreSQL", "bcrypt", "JWT"],
     mau: "10K+",
-    link: "#",
+    link: "https://devpulse-o5ks.onrender.com/",
     type: "WEB PLATFORM"
   }
 ];

@@ -13,9 +13,6 @@ export default function Experience() {
           <FadeIn key={index} delay={index * 0.2}>
             <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden flex flex-col md:flex-row">
               <div className="bg-slate-50/50 dark:bg-slate-950/50 p-8 md:w-1/3 border-b md:border-b-0 md:border-r border-slate-100 dark:border-slate-800 flex flex-col items-start">
-                <div className="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-2xl flex items-center justify-center text-2xl font-bold mb-4">
-                  {company.logoText}
-                </div>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white">{company.company}</h3>
                 <p className="text-slate-600 dark:text-slate-400 font-medium mb-6">{company.role}</p>
                 <div className="space-y-3 text-sm text-slate-500 mt-auto">

@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
-import { Briefcase, Trophy, Code, Brain, FolderGit2, PenTool, Moon, Sun, Menu, X } from "lucide-react";
+import { Briefcase, Code, GraduationCap, Contact, FolderGit2, PenTool, Moon, Sun, Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [mounted, setMounted] = useState(false);
@@ -12,16 +12,19 @@ export default function Navbar() {
   useEffect(() => setMounted(true), []);
 
   const navItems = [
-    { name: "Experience", href: "#experience", icon: Briefcase },
-    { name: "Achievements", href: "#achievements", icon: Trophy },
     { name: "Skills", href: "#skills", icon: Code },
     { name: "Projects", href: "#projects", icon: FolderGit2 },
-    { name: "Writing", href: "#writing", icon: PenTool },
+    { name: "Experience", href: "#experience", icon: Briefcase },
+    { name: "Education", href: "#education", icon: GraduationCap },
+    { name: "Contact", href: "#contact", icon: Contact },
   ];
 
   return (
     <header className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-5xl rounded-full border border-slate-200 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md px-6 py-3 flex items-center justify-between shadow-sm transition-colors">
-      <div className="text-xl font-bold italic tracking-tight">Shahjalal Shohag</div>
+      {/* Wrapped Name in Next.js Link pointing to home */}
+      <Link href="/" className="text-xl font-bold italic tracking-tight hover:opacity-80 transition-opacity">
+        Md Abidur Rahman
+      </Link>
       
       <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-300">
         {navItems.map((item) => (

@@ -6,8 +6,8 @@ import "./globals.css";
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shahjalal Shohag | Senior Software Engineer",
-  description: "Portfolio of Shahjalal Shohag, Senior Software Engineer, 2x ICPC World Finalist.",
+  title: "Md Abidur Rahman | Full Stack Software Developer",
+  description: "Portfolio of Md Abidur Rahman, Full-Stack Software Developer",
 };
 
 export default function RootLayout({

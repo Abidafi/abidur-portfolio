@@ -3,8 +3,8 @@ import FadeIn from "./FadeIn";
 
 export default function Education() {
   const educationData = [
-    { degree: "BSc", institution: "Shahjalal University of Science and Technology", major: "B.Sc in Computer Science and Engineering", period: "February 2017 - February 2022", location: "Sylhet, Bangladesh" },
-    { degree: "HSC", institution: "Dhaka Residential Model College", major: "Higher Secondary", period: "July 2014 - July 2016", location: "Dhaka, Bangladesh" }
+    { degree: "M.Sc.", institution: "Brandenburg University of Technology - BTU Cottbus", major: "M.Sc. in Environmental Resources Management (Study Leave)", period: "October 2021 - February 2025", location: "Cottbus, Germany" },
+    { degree: "B.Sc.", institution: "International University of Business Agriculture & Technology", major: "Civil Engineering", period: "January 2010 - August 2013", location: "Dhaka, Bangladesh" }
   ];
 
   return (
