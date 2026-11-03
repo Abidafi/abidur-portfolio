@@ -47,7 +47,7 @@ export default function Hero() {
         </FadeIn>
       </div>
       <FadeIn delay={0.3} className="relative w-80 h-80 rounded-full overflow-hidden shadow-xl border-4 border-white dark:border-slate-800">
-        <Image src={heroData.image} alt={heroData.name} fill className="object-cover" priority />
+        <Image src={heroData.image} alt={heroData.name} fill sizes="(max-width: 768px) 100vw, 500px" className="object-cover" priority />
       </FadeIn>
     </section>
   );
